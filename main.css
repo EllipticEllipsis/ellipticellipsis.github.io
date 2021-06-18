@@ -55,14 +55,20 @@ header {
 @media (prefers-color-scheme: dark) {
     body {
         color:#ccc;
-        background:black
+        color: rgba(200, 200, 200, 0.9);
+        background:#112211
     }
     a:link {
         color:#5bf
     }
     a:visited {
-        color:#ccf
-}
+        color:#ccf;
+        color: rgba(200, 200, 255, 0.7);
+    }
+    h1 a {
+        color: #ccc;
+        color:rgba(200, 200, 200, 0.9)
+    }
 }
 
 
@@ -97,7 +103,17 @@ figure {
     width: 372px;
 }
 
+figure > * {
+    margin: auto;
+    display: table;
+}
+
 figcaption {
     text-align: center;
-    /* display: block; */
+    color: white;
+    background-color: black;
+    margin-top: 1rem;
+    width: fit-content(372px);
+    padding: 1ex 1rem;
+    box-sizing: border-box;
 }
