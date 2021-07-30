@@ -1,0 +1,15 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Emacs stuff #
+###############
+*~
+
+# Every file is special, and we value you and do not ignore you :)
